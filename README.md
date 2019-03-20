@@ -7,9 +7,12 @@
 
 ### 上传 dataset
 
-/api/v1/datadealer/dataset/submit
+
 
 ```
+
+/api/v1/datadealer/dataset/submit
+method: POST
 
 {
 	"id": "0000000001",
@@ -77,15 +80,17 @@
 
 ### 查询 dataset
 
-/api/v1/datadealer/dataset/query
+
 
 ```
+/api/v1/datadealer/dataset/query
+method: POST
 
 {
 	"answers": [{
-		"TAG1": "",
-		"TAG2": "",
-		"TAG3": "",
+		"tag1": "",
+		"tag2": "",
+		"tag3": "",
 		"answerType": "",
 		"value": ""
 	}]
