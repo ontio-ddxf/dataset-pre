@@ -88,11 +88,11 @@ method: POST
 
 {
 	"answers": [{
-		"tag1": "",
-		"tag2": "",
-		"tag3": "",
-		"answerType": "",
-		"value": ""
+		"tag1": "公共标签",
+		"tag2": "个人信息",
+		"tag3": "性别",
+		"answerType": "", //数据存在但敏感(SENSITIVE)，数据不存在(EMPTY)以及数据存在且在value字段
+		"value": "男"
 	}]
 }
 
