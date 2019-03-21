@@ -17,43 +17,43 @@ method: POST
 {
 	"id": "0000000001",
 	"data": [{
-			"tag1Id": "tag1",
+			"tag1id": "tag1",
 			"value": [{
-				"tag2Id": "tag2",
+				"tag2id": "tag2",
 				"value": [{
-						"tag3Id": "tag3",
+						"tag3id": "tag3",
 						"value": "O型"
 					},
 					{
-						"tag3Id": "tag3",
+						"tag3id": "tag3",
 						"value": "男"
 					}
 				]
 			}, {
-				"tag2Id": "tag2",
+				"tag2id": "tag2",
 				"value": [{
-						"tag3Id": "tag3",
+						"tag3id": "tag3",
 						"value": "吸烟"
 					},
 					{
-						"tag3Id": "tag3",
+						"tag3id": "tag3",
 						"value": "无"
 					}
 				]
 			}]
 		},
 		{
-			"tag1Id": "tag1",
+			"tag1id": "tag1",
 			"value": [{
-				"tag2Id": "tag2",
+				"tag2id": "tag2",
 				"value": [{
-					"tag3Id": "tag3",
+					"tag3id": "tag3",
 					"value": "否"
 				}]
 			}, {
-				"tag2Id": "tag2",
+				"tag2id": "tag2",
 				"value": [{
-					"tag3Id": "tag3",
+					"tag3id": "tag3",
 					"value": "无"
 				}]
 			}]
